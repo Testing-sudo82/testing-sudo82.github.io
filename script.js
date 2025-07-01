@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Track clicks on all buttons
     document.querySelectorAll('.link-button').forEach((button, index) => {
         button.addEventListener('click', () => {
-            const buttonNames = ['Portfolio', 'GitHub', 'LinkedIn', 'Twitter', 'Contact'];
+            const buttonNames = ['Portfolio', 'GitHub', 'LinkedIn', 'Instagram', 'Contact', 'View Gallery'];
             trackClick(buttonNames[index]);
         });
     });
